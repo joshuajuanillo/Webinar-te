@@ -1,62 +1,47 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## About Webinarinc Developer Challenge
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Challenge description
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The applicant should design and implement a minimalistic web-application that would let the user browse, search and navigate through Chuck Norris jokes and works within a standard modern web-browser. We expect the applicant to at least implement these three endpoints:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+https://api.chucknorris.io/jokes/categories
+https://api.chucknorris.io/jokes/random?category={category}
+https://api.chucknorris.io/jokes/search?query={query} <br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+which would allow:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* listing all the categories
+* navigating into a category and showing a random joke in that category.
+* searching through all the jokes using free text search.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Installation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* npm install
+* npm run dev
+* composer install
+* composer install
+* php artisan storage:link
+* php artisan migrate
 
-### Premium Partners
+then, run:
+* php artisan serve, and navigate your localhost server
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+## Features and specification of web-application.
+* This application serves a simple web-app that gives entertainment to a user that will visit this website.
+* A user will input first the name and select their character whom will be their talking
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="915" alt="Screen Shot 2021-06-02 at 9 31 30 AM" src="https://user-images.githubusercontent.com/43087375/120410378-73744b00-c385-11eb-97a3-49e275d25664.png">
 
-## Code of Conduct
+* After selecting the character and inputting their names, a simple chat page will be load so that a user can get a random joke base on the list of category.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img width="881" alt="Screen Shot 2021-06-02 at 9 31 48 AM" src="https://user-images.githubusercontent.com/43087375/120410416-84bd5780-c385-11eb-8cab-1b76b3f5af29.png">
 
-## Security Vulnerabilities
+* A user can also search a specific joke when they click the button "more joke" in a homepage and the a modal pop up will appear and will give a list of joke
+base on the input search they provide.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="999" alt="Screen Shot 2021-06-02 at 9 32 04 AM" src="https://user-images.githubusercontent.com/43087375/120410436-90a91980-c385-11eb-91a9-478411501e9b.png">
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
