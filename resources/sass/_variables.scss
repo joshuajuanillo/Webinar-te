@@ -1,0 +1,62 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+.frankie-card{ 
+    padding: 10px;
+    background-color: #3f51b5 !important;
+    color: white !important;
+}
+
+.u-card{ 
+    padding: 10px;
+    background-color: #ffffff !important;
+    color: black !important;
+}
+
+.cat-btn{
+    height: 36px !important;
+    padding: 4px !important;
+    margin: 1px 1px !important;
+    font-size: 10px !important;
+}
+
+.chat-card{
+    width: 700px !important;
+    margin: 0 auto !important;
+}
+
+.col-overflow{
+    max-height: 50vh !important;
+    overflow-x: auto !important;
+}
+
+.image-char{
+    height: auto;
+    margin: 0 auto; 
+    cursor: pointer;
+    &:hover{
+        border: 1px black solid;
+        opacity: 0.8;
+    }
+}
+
+.avatar-char{
+    width: 100% !important;
+}
