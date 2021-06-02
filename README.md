@@ -45,3 +45,7 @@ base on the input search they provide.
 
 <img width="999" alt="Screen Shot 2021-06-02 at 9 32 04 AM" src="https://user-images.githubusercontent.com/43087375/120410436-90a91980-c385-11eb-91a9-478411501e9b.png">
 
+## OTHERS
+* I use Vuetify as a web ui frontend since it was one of the greatest UI component libraries out there based on the Material Design spec, which is enough for almost any app’s needs.
+* I use laravel backend to get all my manual created characters in my web app.
+* I use vue as my frontend web ui since i was familiar with SPA.
